@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <style>
+        .login {
+            color: white;
+            height: 38px;
+            width: 300px;
+            background-color: #2b669a;
+        }
+        .container {
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .login {
+            font-weight: bold;
+        }
+        .txt {
+            color: #fff;
+        }
+        h2 {
+            margin-bottom: 4%;
+            font-weight: bold ;
+            font-size: 50px;
+        }
+        h3 {
+            margin-bottom: 3%;
+            font-size: 40px;
+        }
+    </style>
+  </head>
+  <body style="background-color: #171616;">
+    <div class="container">
+        <h2 class="text-center txt">SIT223 Project A</h2>
+        <h3 class="text-center txt">Cloud Group 01-1</h3>
+        <div class="row">
+            <form class="form-horizontal col-md-offset-4 col-md-4">
+                <div class="form-group">
+                    <label for="make" class="col-sm-2 control-label txt">Make</label>
+                    <div class="col-sm-10">
+                        <input type="input" class="form-control rounded" id="make" placeholder="make">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="model" class="col-sm-2 control-label txt">Model</label>
+                    <div class="col-sm-10">
+                        <input type="input" class="form-control rounded" id="model" placeholder="model">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-info login ">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="bootstrap-3.4.1-dist/js/jquery.js" />
+    <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js" />
+  </body>
+</html>
