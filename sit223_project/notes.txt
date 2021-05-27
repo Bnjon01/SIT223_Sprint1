@@ -1,0 +1,12 @@
+------------------------------------------
+Steps to creating wireframe and prototype
+------------------------------------------
+
+Install a server - XAMPP
+Create database table and populate with data - SQL
+Use a text editor (Atom) to write code - HTML, CSS, PHP
+Use a browser (Chrome) to display website
+Test security of website and database
+Test functionality and quality assurance
+Add user experience - JavaScript
+Add additional features - Email notifications etc.
