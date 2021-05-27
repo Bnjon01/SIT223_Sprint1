@@ -1,0 +1,156 @@
+/*************************
+  SIT223 Project
+  Cloud Group 01-1
+  Anthony George 220180567
+  28/04/2021
+
+  CSS Stylesheet
+
+  This file contains
+  the styling for the website
+**************************/
+
+
+@font-face {
+  font-family: 'Quicksand', 'Roboto Condensed', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+}
+html{
+  height:100%;
+}
+
+body{
+  min-height:100%;
+  width: auto;
+  font-family: 'Quicksand';
+  overflow: auto;
+  margin:0;
+  padding: 0;
+  /*background: linear-gradient(0deg, #111, #4a4a4a);*/
+  /*background-color: white;*/
+  background-image: url('cars.jpg');
+  background-size: cover;
+  color: #eee;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin:auto;
+  padding-top: 2em;
+  flex-direction: column;
+}
+
+h5, h4, span, label{
+  font-family: 'Quicksand';
+  margin: 0;
+  font-size: 1em;
+}
+
+span{
+  display: block;
+  padding-bottom: 2rem;
+}
+
+label{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #eee;
+}
+
+footer{
+  font-family: 'Quicksand', Arial;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  padding-top: 4em;
+  font-size: .8rem;
+}
+
+button{
+  font-family: 'Quicksand';
+  font-size: 1.5rem;
+  width:4rem;
+  height:3rem;
+  border: none;
+  vertical-align: middle;
+  border-radius: 50px;
+  background-color: #dadada;
+  transition: 0.5s;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: rgba(0, 140, 255, 0.5);
+}
+
+button:active, button:focus{
+  outline: 0;
+}
+
+.submit{
+  width:auto;
+  cursor: pointer;
+  vertical-align: middle;
+  margin: 0;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+input{
+  vertical-align: middle;
+  max-width: 300px;
+  width: 90%;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 50px;
+  border-width: thin;
+  box-shadow: none;
+  outline: none;
+  margin: .2rem;
+  display: inline-block;
+}
+
+.conf{
+  text-align:center;
+  letter-spacing: .5em;
+  font-size: 2em;
+  height: 1rem;
+}
+
+.forgot-password{
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  text-decoration:underline;
+  cursor: pointer;
+}
+
+form{
+
+}
+
+.msg{
+  font-size: 1rem;
+  padding-bottom: .5rem;
+  font-family: 'Quicksand';
+  color: tomato;
+}
+
+select{
+  min-width: 8rem;
+  padding: .2em;
+  margin: .2em;
+  border-radius: 5px;
+}
+
+
+
+/* Media */
